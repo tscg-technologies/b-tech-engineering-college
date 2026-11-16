@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering Laboratories | B.Tech College</title>
+  <meta name="description" content="Explore our specialized engineering laboratories: programming, computer networks, AI, data science, electronics, electrical, mechanical, civil, and robotics.">
+  
+  <meta property="og:title" content="Engineering Laboratories | B.Tech College">
+  <meta property="og:description" content="Hands-on experimental learning spaces, practical exercises, and technical skill development across 9 specialized engineering laboratories.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%231769AA'><path d='M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM3.45 9L12 4.34 20.55 9 12 13.66 3.45 9zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z'/></svg>">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="topbar">
+    <div class="container topbar-content">
+      <div class="topbar-items">
+        <span class="topbar-badge">ADMISSIONS 2026–27</span>
+        <span class="topbar-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          Call: 0000000000
+        </span>
+        <span class="topbar-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          demo@example.com
+        </span>
+      </div>
+      <div class="topbar-items">
+        <span class="topbar-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Mon–Sat: 9:00 AM–5:00 PM
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="brand" aria-label="B.Tech Engineering College Home">
+        <div class="brand-symbol">
+          <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        </div>
+        <div class="brand-text-group">
+          <span class="brand-title">B.TECH ENGINEERING COLLEGE</span>
+          <span class="brand-subtitle">ENGINEERING EDUCATION</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <!-- 1. Home -->
+        <div class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </div>
+
+        <!-- 2. Academics Dropdown -->
+        <div class="nav-item">
+          <a href="programs.html" class="nav-link">
+            Academics
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="about.html" class="dropdown-item">
+              <span class="dropdown-item-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </span>
+              <span class="dropdown-item-text">
+                <strong>About College</strong>
+                <small>Vision, mission & academic philosophy</small>
+              </span>
+            </a>
+            <a href="programs.html" class="dropdown-item">
+              <span class="dropdown-item-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </span>
+              <span class="dropdown-item-text">
+                <strong>B.Tech Programs</strong>
+                <small>8 undergraduate engineering specializations</small>
+              </span>
+            </a>
+            <a href="departments.html" class="dropdown-item">
+              <span class="dropdown-item-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l8-4v18M13 11h4M13 15h4M13 7h4"/></svg>
+              </span>
+              <span class="dropdown-item-text">
+                <strong>Academic Departments</strong>
+                <small>Curriculum topics, labs & careers</small>
+              </span>
+            </a>
+            <a href="laboratories.html" class="dropdown-item">
+              <span class="dropdown-item-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+              </span>
+              <span class="dropdown-item-text">
+                <strong>Engineering Laboratories</strong>
+                <small>9 specialized experimental facilities</small>
+              </span>
+            </a>
+            <a href="research.html" class="dropdown-item">
+              <span class="dropdown-item-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg>
+              </span>
+              <span class="dropdown-item-text">
+                <strong>Research & Innovation</strong>
+                <small>Emerging technologies & student initiatives</small>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. Campus & Careers Dropdown -->
+        <div class="nav-item">
+          <a href="campus-life.html" class="nav-link">
+            Campus & Careers
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="placements.html" class="dropdown-item">
+              <span class="dropdown-item-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              </span>
+              <span class="dropdown-item-text">
+                <strong>Placements & Careers</strong>
+                <small>Career cell, preparation & recruitment</small>
+              </span>
+            </a>
+            <a href="infrastructure.html" class="dropdown-item">
+              <span class="dropdown-item-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+              </span>
+              <span class="dropdown-item-text">
+                <strong>Infrastructure & Facilities</strong>
+                <small>Smart classrooms, library & amenities</small>
+              </span>
+            </a>
+            <a href="campus-life.html" class="dropdown-item">
+              <span class="dropdown-item-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </span>
+              <span class="dropdown-item-text">
+                <strong>Campus Life & Activities</strong>
+                <small>Coding clubs, robotics, arts & sports</small>
+              </span>
+            </a>
+            <a href="student-projects.html" class="dropdown-item">
+              <span class="dropdown-item-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              </span>
+              <span class="dropdown-item-text">
+                <strong>Student Projects</strong>
+                <small>Multidisciplinary prototype gallery</small>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. Admissions & Contact Dropdown -->
+        <div class="nav-item">
+          <a href="admissions.html" class="nav-link">
+            Admissions & Contact
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a href="admissions.html" class="dropdown-item">
+              <span class="dropdown-item-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+              </span>
+              <span class="dropdown-item-text">
+                <strong>Admissions 2026–27</strong>
+                <small>Eligibility criteria, process & FAQs</small>
+              </span>
+            </a>
+            <a href="contact.html" class="dropdown-item">
+              <span class="dropdown-item-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+              </span>
+              <span class="dropdown-item-text">
+                <strong>Contact Us</strong>
+                <small>Helpline, address & enquiry form</small>
+              </span>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <a href="admissions.html#enquiry-section" class="btn btn-accent btn-sm">Enquire Now</a>
+        <button type="button" class="menu-toggle" aria-label="Toggle navigation drawer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-backdrop" aria-hidden="true"></div>
+  <div class="mobile-nav-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <div class="mobile-nav-header">
+      <div class="brand">
+        <div class="brand-symbol" style="width: 36px; height: 36px;">
+          <svg viewBox="0 0 24 24" style="width: 20px; height: 20px;"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        </div>
+        <span class="brand-title" style="font-size: 0.95rem;">B.TECH COLLEGE</span>
+      </div>
+      <button type="button" class="mobile-nav-close" aria-label="Close navigation drawer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="mobile-nav-body">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+
+        <!-- Academics Accordion -->
+        <li class="mobile-nav-item">
+          <div class="mobile-nav-link">
+            <a href="programs.html" class="mobile-nav-link-heading" style="color: inherit; text-decoration: none; flex: 1;">Academics</a>
+            <button type="button" class="mobile-submenu-toggle" aria-label="Toggle Academics submenu">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+          </div>
+          <ul class="mobile-submenu">
+            <li class="mobile-submenu-item"><a href="about.html">About College</a></li>
+            <li class="mobile-submenu-item"><a href="programs.html">B.Tech Programs</a></li>
+            <li class="mobile-submenu-item"><a href="departments.html">Academic Departments</a></li>
+            <li class="mobile-submenu-item"><a href="laboratories.html">Engineering Laboratories</a></li>
+            <li class="mobile-submenu-item"><a href="research.html">Research & Innovation</a></li>
+          </ul>
+        </li>
+
+        <!-- Campus & Careers Accordion -->
+        <li class="mobile-nav-item">
+          <div class="mobile-nav-link">
+            <a href="campus-life.html" class="mobile-nav-link-heading" style="color: inherit; text-decoration: none; flex: 1;">Campus & Careers</a>
+            <button type="button" class="mobile-submenu-toggle" aria-label="Toggle Campus submenu">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+          </div>
+          <ul class="mobile-submenu">
+            <li class="mobile-submenu-item"><a href="placements.html">Placements & Careers</a></li>
+            <li class="mobile-submenu-item"><a href="infrastructure.html">Infrastructure & Facilities</a></li>
+            <li class="mobile-submenu-item"><a href="campus-life.html">Campus Life & Activities</a></li>
+            <li class="mobile-submenu-item"><a href="student-projects.html">Student Projects</a></li>
+          </ul>
+        </li>
+
+        <!-- Admissions & Contact Accordion -->
+        <li class="mobile-nav-item">
+          <div class="mobile-nav-link">
+            <a href="admissions.html" class="mobile-nav-link-heading" style="color: inherit; text-decoration: none; flex: 1;">Admissions & Contact</a>
+            <button type="button" class="mobile-submenu-toggle" aria-label="Toggle Admissions submenu">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+          </div>
+          <ul class="mobile-submenu">
+            <li class="mobile-submenu-item"><a href="admissions.html">Admissions 2026–27</a></li>
+            <li class="mobile-submenu-item"><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="mobile-nav-footer">
+      <a href="admissions.html#enquiry-section" class="btn btn-accent" style="width: 100%;">Enquire Now</a>
+      <div style="font-size: 0.8rem; color: var(--color-muted-text); text-align: center;">
+        Call: 0000000000 | demo@example.com
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <div class="page-banner-content">
+        <span class="section-tag" style="background: rgba(255,255,255,0.15); color: #fff; border-color: rgba(255,255,255,0.25);">PRACTICAL EXPERIMENTATION</span>
+        <h1>ENGINEERING LABORATORIES</h1>
+        <p class="lead">Hands-on testing beds, simulation workstations, and prototyping environments designed to turn conceptual equations into physical working systems.</p>
+      </div>
+    </div>
+    <div class="breadcrumbs-bar">
+      <div class="container">
+        <div class="breadcrumbs">
+          <a href="index.html">Home</a>
+          <span class="breadcrumbs-sep">/</span>
+          <span class="breadcrumbs-current">Laboratories</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-header text-center reveal-on-scroll">
+        <span class="section-tag">EXPERIMENTAL LEARNING</span>
+        <h2 class="section-title">SPECIALIZED ENGINEERING LABS</h2>
+        <p class="section-desc">Nine dedicated laboratories covering computational systems, electronics hardware, mechanics, and emerging robotics.</p>
+      </div>
+
+      <!-- Lab 1: Programming Lab -->
+      <div class="program-detail-block reveal-on-scroll">
+        <div class="program-detail-left">
+          <!-- Mandatory Image Placeholder: computer-lab.webp -->
+          <div class="img-placeholder aspect-16-9 has-image" data-future-img="computer-lab.webp">
+            <img src="images/computer-lab.jpeg" alt="Advanced Computer Programming and Software Development Laboratory" loading="lazy">
+          </div>
+          <div>
+            <span class="section-tag">LABORATORY 01</span>
+            <h3 style="margin-top: 0.35rem;">Programming Laboratory</h3>
+            <p class="text-muted" style="margin-top: 0.5rem;">Dedicated computer terminals operating in Linux environments for mastering fundamental and advanced coding paradigms.</p>
+          </div>
+        </div>
+        <div class="program-detail-right">
+          <div class="subtopic-box">
+            <div class="subtopic-title">Overview & Practical Activities</div>
+            <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 0;">Students practice algorithmic problem-solving in C, C++, Java, and Python. Weekly laboratory tasks include linked lists, trees, graphs, sorting benchmarks, dynamic programming, and file handling routines.</p>
+          </div>
+          <div class="subtopic-box">
+            <div class="subtopic-title">Skills Students Develop</div>
+            <div class="subtopic-tags">
+              <span class="subtopic-tag">Algorithm Complexity Analysis</span>
+              <span class="subtopic-tag">GDB Debugging</span>
+              <span class="subtopic-tag">Memory Profiling</span>
+              <span class="subtopic-tag">Git Collaborative Workflow</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lab 2: Computer Networks Lab -->
+      <div class="program-detail-block reveal-on-scroll">
+        <div class="program-detail-left">
+          <!-- Mandatory Image Placeholder: lab-computer-networks.webp -->
+          <div class="img-placeholder aspect-16-9 has-image" data-future-img="lab-computer-networks.webp">
+            <img src="images/lab-computer-networks.jpeg" alt="Computer Networks and Telecommunications Routing Laboratory" loading="lazy">
+          </div>
+          <div>
+            <span class="section-tag">LABORATORY 02</span>
+            <h3 style="margin-top: 0.35rem;">Computer Networks Laboratory</h3>
+            <p class="text-muted" style="margin-top: 0.5rem;">Network simulation tools and managed hardware switches demonstrating packet flow and protocol design.</p>
+          </div>
+        </div>
+        <div class="program-detail-right">
+          <div class="subtopic-box">
+            <div class="subtopic-title">Overview & Practical Activities</div>
+            <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 0;">Students simulate network topologies using tools such as Cisco Packet Tracer and NS3. Activities include socket programming, subnetting, ARP/DNS resolution tracing, and Wireshark packet capture analysis.</p>
+          </div>
+          <div class="subtopic-box">
+            <div class="subtopic-title">Skills Students Develop</div>
+            <div class="subtopic-tags">
+              <span class="subtopic-tag">Packet Inspection</span>
+              <span class="subtopic-tag">Routing Table Configuration</span>
+              <span class="subtopic-tag">TCP/IP Protocol Diagnostics</span>
+              <span class="subtopic-tag">Network Security Auditing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lab 3: AI Lab -->
+      <div class="program-detail-block reveal-on-scroll">
+        <div class="program-detail-left">
+          <!-- Mandatory Image Placeholder: ai-lab.webp -->
+          <div class="img-placeholder aspect-16-9 has-image" data-future-img="ai-lab.webp">
+            <img src="images/ai-lab.jpeg" alt="Artificial Intelligence High-Performance GPU Computing Laboratory" loading="lazy">
+          </div>
+          <div>
+            <span class="section-tag">LABORATORY 03</span>
+            <h3 style="margin-top: 0.35rem;">Artificial Intelligence Laboratory</h3>
+            <p class="text-muted" style="margin-top: 0.5rem;">GPU-equipped workstations for deep learning models, natural language processing, and computer vision pipelines.</p>
+          </div>
+        </div>
+        <div class="program-detail-right">
+          <div class="subtopic-box">
+            <div class="subtopic-title">Overview & Practical Activities</div>
+            <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 0;">Hands-on training in training multilayer perceptrons, convolutional neural networks, transformer models, and reinforcement agents using PyTorch and OpenCV.</p>
+          </div>
+          <div class="subtopic-box">
+            <div class="subtopic-title">Skills Students Develop</div>
+            <div class="subtopic-tags">
+              <span class="subtopic-tag">Tensor Operations</span>
+              <span class="subtopic-tag">Model Benchmarking</span>
+              <span class="subtopic-tag">Transfer Learning</span>
+              <span class="subtopic-tag">Vision Inference</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lab 4: Data Science Lab -->
+      <div class="program-detail-block reveal-on-scroll">
+        <div class="program-detail-left">
+          <!-- Mandatory Image Placeholder: data-science-lab.webp -->
+          <div class="img-placeholder aspect-16-9 has-image" data-future-img="data-science-lab.webp">
+            <img src="images/data-science-lab.jpeg" alt="Data Science and Statistical Analytics Research Laboratory" loading="lazy">
+          </div>
+          <div>
+            <span class="section-tag">LABORATORY 04</span>
+            <h3 style="margin-top: 0.35rem;">Data Science Laboratory</h3>
+            <p class="text-muted" style="margin-top: 0.5rem;">Analytical workstations running statistical libraries, data cleaning utilities, and interactive dashboard tools.</p>
+          </div>
+        </div>
+        <div class="program-detail-right">
+          <div class="subtopic-box">
+            <div class="subtopic-title">Overview & Practical Activities</div>
+            <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 0;">Execution of ETL data pipelines, exploratory data visualization with Seaborn/Plotly, multivariate regression, and clustering analysis on open-source datasets.</p>
+          </div>
+          <div class="subtopic-box">
+            <div class="subtopic-title">Skills Students Develop</div>
+            <div class="subtopic-tags">
+              <span class="subtopic-tag">Pandas Data Wrangling</span>
+              <span class="subtopic-tag">Hypothesis Testing</span>
+              <span class="subtopic-tag">Interactive Visual Dashboards</span>
+              <span class="subtopic-tag">SQL Analytical Queries</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lab 5: Electronics Lab -->
+      <div class="program-detail-block reveal-on-scroll">
+        <div class="program-detail-left">
+          <!-- Mandatory Image Placeholder: electronics-lab.webp -->
+          <div class="img-placeholder aspect-16-9 has-image" data-future-img="electronics-lab.webp">
+            <img src="images/electronics-lab.jpeg" alt="Electronics and Microcontroller Testing Workbenches" loading="lazy">
+          </div>
+          <div>
+            <span class="section-tag">LABORATORY 05</span>
+            <h3 style="margin-top: 0.35rem;">Electronics & Microcontroller Laboratory</h3>
+            <p class="text-muted" style="margin-top: 0.5rem;">Electronic workbenches with dual-channel oscilloscopes, function generators, and regulated DC power supplies.</p>
+          </div>
+        </div>
+        <div class="program-detail-right">
+          <div class="subtopic-box">
+            <div class="subtopic-title">Overview & Practical Activities</div>
+            <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 0;">Prototyping operational amplifiers, diode rectifiers, transistor switching circuits, 8051/ARM microcontroller interfacing, and waveform analysis.</p>
+          </div>
+          <div class="subtopic-box">
+            <div class="subtopic-title">Skills Students Develop</div>
+            <div class="subtopic-tags">
+              <span class="subtopic-tag">Circuit Troubleshooting</span>
+              <span class="subtopic-tag">Signal Measurement</span>
+              <span class="subtopic-tag">Embedded C Firmware</span>
+              <span class="subtopic-tag">Sensor Interfacing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lab 6: Electrical Lab -->
+      <div class="program-detail-block reveal-on-scroll">
+        <div class="program-detail-left">
+          <!-- Mandatory Image Placeholder: electrical-lab.webp -->
+          <div class="img-placeholder aspect-16-9 has-image" data-future-img="electrical-lab.webp">
+            <img src="images/electrical-lab.jpeg" alt="Electrical Machines and Motor Generator Testing Station" loading="lazy">
+          </div>
+          <div>
+            <span class="section-tag">LABORATORY 06</span>
+            <h3 style="margin-top: 0.35rem;">Electrical Machines Laboratory</h3>
+            <p class="text-muted" style="margin-top: 0.5rem;">Motor-generator sets, load banks, and transformer test stations for high-power electromechanical experiments.</p>
+          </div>
+        </div>
+        <div class="program-detail-right">
+          <div class="subtopic-box">
+            <div class="subtopic-title">Overview & Practical Activities</div>
+            <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 0;">Evaluation of DC shunt motor speed-torque curves, 3-phase induction motor brake tests, transformer open/short circuit diagnostics, and power factor regulation.</p>
+          </div>
+          <div class="subtopic-box">
+            <div class="subtopic-title">Skills Students Develop</div>
+            <div class="subtopic-tags">
+              <span class="subtopic-tag">High-Voltage Safety</span>
+              <span class="subtopic-tag">Machine Load Testing</span>
+              <span class="subtopic-tag">Synchronous Speed Regulation</span>
+              <span class="subtopic-tag">Power Measurement</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lab 7: Mechanical Workshop -->
+      <div class="program-detail-block reveal-on-scroll">
+        <div class="program-detail-left">
+          <!-- Mandatory Image Placeholder: mechanical-workshop.webp -->
+          <div class="img-placeholder aspect-16-9 has-image" data-future-img="mechanical-workshop.webp">
+            <img src="images/mechanical-workshop.jpeg" alt="Mechanical Engineering Precision Machine Tool Workshop" loading="lazy">
+          </div>
+          <div>
+            <span class="section-tag">LABORATORY 07</span>
+            <h3 style="margin-top: 0.35rem;">Mechanical Machine Workshop</h3>
+            <p class="text-muted" style="margin-top: 0.5rem;">Industrial-grade lathe machines, milling centers, shaper mechanisms, and precision measuring tools.</p>
+          </div>
+        </div>
+        <div class="program-detail-right">
+          <div class="subtopic-box">
+            <div class="subtopic-title">Overview & Practical Activities</div>
+            <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 0;">Metal turning, thread cutting, surface grinding, spur gear milling, and tolerance verification using vernier calipers and micrometers.</p>
+          </div>
+          <div class="subtopic-box">
+            <div class="subtopic-title">Skills Students Develop</div>
+            <div class="subtopic-tags">
+              <span class="subtopic-tag">Machine Tool Operation</span>
+              <span class="subtopic-tag">Metrology & Tolerances</span>
+              <span class="subtopic-tag">Manufacturing Feasibility</span>
+              <span class="subtopic-tag">Workshop Safety Protocol</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lab 8: Civil Lab -->
+      <div class="program-detail-block reveal-on-scroll">
+        <div class="program-detail-left">
+          <!-- Mandatory Image Placeholder: civil-engineering-lab.webp -->
+          <div class="img-placeholder aspect-16-9 has-image" data-future-img="civil-engineering-lab.webp">
+            <img src="images/civil-engineering-lab.jpeg" alt="Civil Engineering Concrete and Soil Mechanics Testing Lab" loading="lazy">
+          </div>
+          <div>
+            <span class="section-tag">LABORATORY 08</span>
+            <h3 style="margin-top: 0.35rem;">Civil & Geotechnical Testing Laboratory</h3>
+            <p class="text-muted" style="margin-top: 0.5rem;">Universal testing machines (UTM), compression testers, direct shear boxes, and soil permeameters.</p>
+          </div>
+        </div>
+        <div class="program-detail-right">
+          <div class="subtopic-box">
+            <div class="subtopic-title">Overview & Practical Activities</div>
+            <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 0;">Testing concrete compressive strength, sieve grading of fine/coarse aggregates, soil compaction Proctor tests, and water turbidity assessments.</p>
+          </div>
+          <div class="subtopic-box">
+            <div class="subtopic-title">Skills Students Develop</div>
+            <div class="subtopic-tags">
+              <span class="subtopic-tag">IS Code Testing Procedures</span>
+              <span class="subtopic-tag">Structural Material Characterization</span>
+              <span class="subtopic-tag">Soil Bearing Capacity</span>
+              <span class="subtopic-tag">Quality Control Audits</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lab 9: Robotics Lab -->
+      <div class="program-detail-block reveal-on-scroll">
+        <div class="program-detail-left">
+          <!-- Mandatory Image Placeholder: robotics-lab.webp -->
+          <div class="img-placeholder aspect-16-9 has-image" data-future-img="robotics-lab.webp">
+            <img src="images/robotics-lab.jpeg" alt="Robotics and Mechatronics Autonomous Prototype Laboratory" loading="lazy">
+          </div>
+          <div>
+            <span class="section-tag">LABORATORY 09</span>
+            <h3 style="margin-top: 0.35rem;">Robotics and Innovation Laboratory</h3>
+            <p class="text-muted" style="margin-top: 0.5rem;">Multidisciplinary innovation space supporting robotic arms, autonomous rovers, sensor nodes, and 3D rapid prototyping.</p>
+          </div>
+        </div>
+        <div class="program-detail-right">
+          <div class="subtopic-box">
+            <div class="subtopic-title">Overview & Practical Activities</div>
+            <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 0;">Inverse kinematics programming, ROS (Robot Operating System) simulations, rapid 3D printing of mechanical linkages, and wireless telemetry test flights.</p>
+          </div>
+          <div class="subtopic-box">
+            <div class="subtopic-title">Skills Students Develop</div>
+            <div class="subtopic-tags">
+              <span class="subtopic-tag">Mechatronics Integration</span>
+              <span class="subtopic-tag">ROS Control Nodes</span>
+              <span class="subtopic-tag">Additive Prototyping</span>
+              <span class="subtopic-tag">Autonomous Sensor Fusion</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="demo-disclaimer" style="margin-top: 2rem;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <div>
+          <strong>Illustrative Laboratory Disclaimer:</strong> The laboratory activities, equipment categories, and skill lists above are general educational illustrations representing typical undergraduate B.Tech curricula. They do not assert actual machine inventory or institutional ownership.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <div class="brand-symbol">
+              <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <div class="brand-text-group">
+              <span class="brand-title">B.TECH ENGINEERING COLLEGE</span>
+              <span class="brand-subtitle">ENGINEERING EDUCATION</span>
+            </div>
+          </a>
+          <p class="footer-desc">
+            A generic technical education website demonstrating undergraduate engineering programs, modern laboratories, academic curricula, and campus infrastructure.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About College</a></li>
+            <li><a href="programs.html">Academic Programs</a></li>
+            <li><a href="departments.html">Departments</a></li>
+            <li><a href="admissions.html">Admissions 2026–27</a></li>
+            <li><a href="placements.html">Placements & Careers</a></li>
+            <li><a href="infrastructure.html">Infrastructure</a></li>
+            <li><a href="laboratories.html">Laboratories</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">B.Tech Programs</h4>
+          <ul class="footer-links">
+            <li><a href="programs.html#cse">Computer Science (CSE)</a></li>
+            <li><a href="programs.html#aiml">CSE – AI & Machine Learning</a></li>
+            <li><a href="programs.html#datascience">CSE – Data Science</a></li>
+            <li><a href="programs.html#it">Information Technology</a></li>
+            <li><a href="programs.html#ece">Electronics & Communication</a></li>
+            <li><a href="programs.html#eee">Electrical & Electronics</a></li>
+            <li><a href="programs.html#mech">Mechanical Engineering</a></li>
+            <li><a href="programs.html#civil">Civil Engineering</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact Information</h4>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000.</span>
+            </li>
+            <li class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+              <span>Phone: 0000000000<br>Alt Phone: 0000000000</span>
+            </li>
+            <li class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Email: demo@example.com</span>
+            </li>
+            <li class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Hours: Mon–Sat, 9:00 AM–5:00 PM</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="sub-footer">
+        <div class="sub-footer-content">
+          <div>
+            © 2026–27 B.Tech Engineering College. Generic Educational Demonstration Website.
+          </div>
+          <div class="sub-footer-disclaimer">
+            Illustrative Demo Notice: This portal is created solely for generic educational demonstration purposes. All names, details, facilities, statistics, and project showcases are generic educational demo illustrations.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" class="scroll-top-btn" aria-label="Scroll back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
